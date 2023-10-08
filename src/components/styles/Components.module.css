@@ -1,0 +1,129 @@
+/* header */
+
+body{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.headerLeft{
+    display: flex;
+}
+
+.tabs{
+    display: flex;
+    width: 170px;
+    font-size: 18px;
+    justify-content: space-between;  
+    align-items: center;
+    margin: 10px;
+}
+
+.tab{
+ text-decoration: none;
+    color: #1677ff;
+    padding: 5px 8px 10px 8px;
+}
+
+.tab .active{
+    color: #808080;  
+    background-color: #0000000f;
+    margin-top: 18px;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.tab:hover{
+    text-decoration: underline;
+}
+
+
+/* main part */
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* favorites */
+
+.fav{
+    color: #1677ff;
+    font-weight: lighter;
+    font-size: 24px;
+    padding: 10px 5px;
+}
+
+
+/* videos */
+.videoList{
+    display: flex;
+    flex-direction: column;
+}
+
+.videoItem{
+    display: flex;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.videoItem:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
+
+.videoDescription{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 600px;
+    background-color: #fff;
+}
+
+.videoDescription h2{
+    color: #1677ff;
+    text-align: start;
+}
+
+.videoDescription p{
+    color: #808080;
+    text-align: start;
+}
+
+
+.cards{
+    padding:10px 0px;
+}
+
+/* modal */
+.modal{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* layout */
+.layout{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    padding: 10px 2px 5px 2px;
+}
+
+.layout h3{
+    color: #888888;
+    font-size: 16px;
+}
+
+.layout span{
+    color: #1677ff
+}

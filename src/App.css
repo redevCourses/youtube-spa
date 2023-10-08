@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  .App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+}
+
+body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000000f;
+}
+
+.wrapper{
+   margin: 3rem auto;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+}
+
+.content{
+  display: flex;
+  min-width: 350px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register{
+  min-height: 270px;
+}
+
+.login{
+  min-height: 130px;
+}
+
+.main{
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 3rem auto;
+  padding: 2rem 3rem;
+}
+
+.favs{
+  align-items: center;
+    padding: 0rem 3rem;
+    margin: 1rem auto;
+}
+/* .search{
+  display: flex;
+  justify-content: end;
+} */
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* .ant-table-tbody{
+  padding: 12px !important;
+}
+.ant-table-tbody > tr > td{
+  padding: 15px !important;
+} */
+
+.disabled{
+  pointer-events: none;
+}
